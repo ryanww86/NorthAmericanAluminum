@@ -6,11 +6,11 @@ import Services from "./components/pages/Services";
 import Products from "./components/pages/Products";
 import SignUp from "./components/pages/SignUp";
 
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <>
-      <Router>
+      <HashRouter>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -18,7 +18,7 @@ function App() {
           <Route path="/products" element={<Products />} />
           <Route path="/sign-up" element={<SignUp />} />
         </Routes>
-      </Router>
+      </HashRouter>
     </>
   );
 }
