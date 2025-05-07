@@ -46,7 +46,7 @@ const Services = () => {
       {imageFiles.map((filename, index) => (
         <img
           key={index}
-          src={`/fence/${filename}`}
+          src={`fence/${filename}`}
           alt={`Fence ${index + 1}`}
           className="fence-image"
         />
