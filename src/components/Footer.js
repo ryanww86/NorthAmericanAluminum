@@ -12,6 +12,7 @@ function Footer() {
         </p>
         <p className="footer-subscription-text">230 Denison St Unit 2</p>
         <p className="footer-subscription-text">Markham, ON L3R 1B6</p>
+        <p className="footer-subscription-text">Cell: 416-779-8182</p>
         <p className="footer-subscription-text">Cell: 437-223-5216</p>
         {/* <div className="input-areas">
           <form>
