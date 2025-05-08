@@ -33,12 +33,11 @@
 }
 
 .products {
-  background-image: url("../public/images/img-81.jpg");
-  background-position: center;
-  background-size: fill;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 images per row */
+  gap: 1px;
+  padding: 1px;
+  justify-content: center;
 }
 
 .sign-up {
